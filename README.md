@@ -9,6 +9,9 @@ Refer to the [CaesarCipher](/caesar/CaesarCipher.swift) class to see how text ca
 Review the test coverage in [CaesarCipherTests](/caesarTests/CaesarCipherTests.swift) to get a sense of what the code can, and cannot, do.
 
 ## Related links
+Read my blog post to learn more about this program:
+http://ijoshsmith.com/2015/04/14/caesar-cipher-in-swift/
+
 This page on Wikipedia explains the Caesar cipher, and how to crack it, in detail:
 http://en.wikipedia.org/wiki/Caesar_cipher
 
