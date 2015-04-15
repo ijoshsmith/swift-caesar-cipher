@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035A7E341ADE0CB800C44386 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A7E331ADE0CB800C44386 /* Util.swift */; };
+		035A7E351ADE0D7300C44386 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A7E331ADE0CB800C44386 /* Util.swift */; };
+		03C92A7F1ADDC9C1000409B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92A7E1ADDC9C1000409B0 /* AppDelegate.swift */; };
+		03C92A811ADDC9C1000409B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92A801ADDC9C1000409B0 /* ViewController.swift */; };
+		03C92A831ADDC9C1000409B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C92A821ADDC9C1000409B0 /* Images.xcassets */; };
+		03C92A861ADDC9C1000409B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C92A841ADDC9C1000409B0 /* Main.storyboard */; };
+		03C92A9C1ADDCA4D000409B0 /* CaesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92A9B1ADDCA4D000409B0 /* CaesarCipher.swift */; };
+		03C92A9D1ADDCA4D000409B0 /* CaesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92A9B1ADDCA4D000409B0 /* CaesarCipher.swift */; };
+		03C92A9F1ADDCA7E000409B0 /* LetterFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92A9E1ADDCA7E000409B0 /* LetterFrequency.swift */; };
+		03C92AA01ADDCA7E000409B0 /* LetterFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92A9E1ADDCA7E000409B0 /* LetterFrequency.swift */; };
+		03C92AA21ADDCAAB000409B0 /* CaesarCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92AA11ADDCAAB000409B0 /* CaesarCipherTests.swift */; };
+		03C92AA41ADDCAFE000409B0 /* LetterFrequencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C92AA31ADDCAFE000409B0 /* LetterFrequencyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C92A8C1ADDC9C1000409B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C92A711ADDC9C1000409B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C92A781ADDC9C1000409B0;
+			remoteInfo = caesar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035A7E331ADE0CB800C44386 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = caesar/Util.swift; sourceTree = "<group>"; };
+		03C92A791ADDC9C1000409B0 /* caesar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caesar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C92A7D1ADDC9C1000409B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C92A7E1ADDC9C1000409B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C92A801ADDC9C1000409B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C92A821ADDC9C1000409B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03C92A851ADDC9C1000409B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C92A8B1ADDC9C1000409B0 /* caesarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caesarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C92A901ADDC9C1000409B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C92A9B1ADDCA4D000409B0 /* CaesarCipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaesarCipher.swift; path = caesar/CaesarCipher.swift; sourceTree = "<group>"; };
+		03C92A9E1ADDCA7E000409B0 /* LetterFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterFrequency.swift; path = caesar/LetterFrequency.swift; sourceTree = "<group>"; };
+		03C92AA11ADDCAAB000409B0 /* CaesarCipherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaesarCipherTests.swift; path = caesarTests/CaesarCipherTests.swift; sourceTree = "<group>"; };
+		03C92AA31ADDCAFE000409B0 /* LetterFrequencyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterFrequencyTests.swift; path = caesarTests/LetterFrequencyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C92A761ADDC9C1000409B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C92A881ADDC9C1000409B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C92A701ADDC9C1000409B0 = {
+			isa = PBXGroup;
+			children = (
+				03C92A9B1ADDCA4D000409B0 /* CaesarCipher.swift */,
+				03C92AA11ADDCAAB000409B0 /* CaesarCipherTests.swift */,
+				03C92A9E1ADDCA7E000409B0 /* LetterFrequency.swift */,
+				03C92AA31ADDCAFE000409B0 /* LetterFrequencyTests.swift */,
+				035A7E331ADE0CB800C44386 /* Util.swift */,
+				03C92A7B1ADDC9C1000409B0 /* caesar */,
+				03C92A8E1ADDC9C1000409B0 /* caesarTests */,
+				03C92A7A1ADDC9C1000409B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C92A7A1ADDC9C1000409B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C92A791ADDC9C1000409B0 /* caesar.app */,
+				03C92A8B1ADDC9C1000409B0 /* caesarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C92A7B1ADDC9C1000409B0 /* caesar */ = {
+			isa = PBXGroup;
+			children = (
+				03C92A7E1ADDC9C1000409B0 /* AppDelegate.swift */,
+				03C92A801ADDC9C1000409B0 /* ViewController.swift */,
+				03C92A821ADDC9C1000409B0 /* Images.xcassets */,
+				03C92A841ADDC9C1000409B0 /* Main.storyboard */,
+				03C92A7C1ADDC9C1000409B0 /* Supporting Files */,
+			);
+			path = caesar;
+			sourceTree = "<group>";
+		};
+		03C92A7C1ADDC9C1000409B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C92A7D1ADDC9C1000409B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C92A8E1ADDC9C1000409B0 /* caesarTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C92A8F1ADDC9C1000409B0 /* Supporting Files */,
+			);
+			path = caesarTests;
+			sourceTree = "<group>";
+		};
+		03C92A8F1ADDC9C1000409B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C92A901ADDC9C1000409B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C92A781ADDC9C1000409B0 /* caesar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C92A951ADDC9C1000409B0 /* Build configuration list for PBXNativeTarget "caesar" */;
+			buildPhases = (
+				03C92A751ADDC9C1000409B0 /* Sources */,
+				03C92A761ADDC9C1000409B0 /* Frameworks */,
+				03C92A771ADDC9C1000409B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = caesar;
+			productName = caesar;
+			productReference = 03C92A791ADDC9C1000409B0 /* caesar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C92A8A1ADDC9C1000409B0 /* caesarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C92A981ADDC9C1000409B0 /* Build configuration list for PBXNativeTarget "caesarTests" */;
+			buildPhases = (
+				03C92A871ADDC9C1000409B0 /* Sources */,
+				03C92A881ADDC9C1000409B0 /* Frameworks */,
+				03C92A891ADDC9C1000409B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C92A8D1ADDC9C1000409B0 /* PBXTargetDependency */,
+			);
+			name = caesarTests;
+			productName = caesarTests;
+			productReference = 03C92A8B1ADDC9C1000409B0 /* caesarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C92A711ADDC9C1000409B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iJoshSmith;
+				TargetAttributes = {
+					03C92A781ADDC9C1000409B0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					03C92A8A1ADDC9C1000409B0 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 03C92A781ADDC9C1000409B0;
+					};
+				};
+			};
+			buildConfigurationList = 03C92A741ADDC9C1000409B0 /* Build configuration list for PBXProject "caesar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C92A701ADDC9C1000409B0;
+			productRefGroup = 03C92A7A1ADDC9C1000409B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C92A781ADDC9C1000409B0 /* caesar */,
+				03C92A8A1ADDC9C1000409B0 /* caesarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C92A771ADDC9C1000409B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C92A831ADDC9C1000409B0 /* Images.xcassets in Resources */,
+				03C92A861ADDC9C1000409B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C92A891ADDC9C1000409B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C92A751ADDC9C1000409B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C92A811ADDC9C1000409B0 /* ViewController.swift in Sources */,
+				03C92A7F1ADDC9C1000409B0 /* AppDelegate.swift in Sources */,
+				035A7E341ADE0CB800C44386 /* Util.swift in Sources */,
+				03C92A9F1ADDCA7E000409B0 /* LetterFrequency.swift in Sources */,
+				03C92A9C1ADDCA4D000409B0 /* CaesarCipher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C92A871ADDC9C1000409B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C92AA01ADDCA7E000409B0 /* LetterFrequency.swift in Sources */,
+				03C92AA21ADDCAAB000409B0 /* CaesarCipherTests.swift in Sources */,
+				035A7E351ADE0D7300C44386 /* Util.swift in Sources */,
+				03C92AA41ADDCAFE000409B0 /* LetterFrequencyTests.swift in Sources */,
+				03C92A9D1ADDCA4D000409B0 /* CaesarCipher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C92A8D1ADDC9C1000409B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C92A781ADDC9C1000409B0 /* caesar */;
+			targetProxy = 03C92A8C1ADDC9C1000409B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C92A841ADDC9C1000409B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C92A851ADDC9C1000409B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C92A931ADDC9C1000409B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C92A941ADDC9C1000409B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03C92A961ADDC9C1000409B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = caesar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C92A971ADDC9C1000409B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = caesar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03C92A991ADDC9C1000409B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = caesarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caesar.app/Contents/MacOS/caesar";
+			};
+			name = Debug;
+		};
+		03C92A9A1ADDC9C1000409B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = caesarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caesar.app/Contents/MacOS/caesar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C92A741ADDC9C1000409B0 /* Build configuration list for PBXProject "caesar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C92A931ADDC9C1000409B0 /* Debug */,
+				03C92A941ADDC9C1000409B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C92A951ADDC9C1000409B0 /* Build configuration list for PBXNativeTarget "caesar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C92A961ADDC9C1000409B0 /* Debug */,
+				03C92A971ADDC9C1000409B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C92A981ADDC9C1000409B0 /* Build configuration list for PBXNativeTarget "caesarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C92A991ADDC9C1000409B0 /* Debug */,
+				03C92A9A1ADDC9C1000409B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C92A711ADDC9C1000409B0 /* Project object */;
+}
